@@ -4,7 +4,7 @@ metadata:
   name: nginx-chaos
   namespace: default
   label:
-    app: random
+    type: democncf
 spec:
   appinfo:
     appns: 'default'
@@ -24,7 +24,7 @@ spec:
           env:
             # set chaos duration (in sec) as desired
             - name: TOTAL_CHAOS_DURATION
-              value: '60'
+              value: '30'
 
             # set chaos interval (in sec) as desired
             - name: CHAOS_INTERVAL
