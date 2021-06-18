@@ -4,7 +4,7 @@ metadata:
   name: nginx-chaos
   namespace: default
   label:
-    type: democncf
+    type: demo
 spec:
   appinfo:
     appns: 'default'
